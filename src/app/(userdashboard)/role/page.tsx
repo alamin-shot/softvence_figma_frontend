@@ -105,7 +105,7 @@ export default function RolePage() {
             />
 
             <EditRoleModal
-                key={selectedRole?.id || 'new'} // This forces re-render when role changes
+                key={selectedRole?.id || 'new'} 
                 role={selectedRole}
                 isOpen={isModalOpen}
                 onClose={handleCloseModal}
